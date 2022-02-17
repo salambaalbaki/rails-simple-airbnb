@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-light p-3 mb-3" style="background-color: #e3f2fd;">
+      <%= link_to "Simple Airbnb", flats_path, class: "navbar-brand"%>
+      <%= link_to "Add Flat", new_flat_path, class: "btn btn-primary"%>
+    </nav>
     <%= yield %>
   </body>
 </html>
